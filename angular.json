@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "materialize:build"
+            "browserTarget": "materialize:build",
+            "port": 4300
           },
           "configurations": {
             "production": {
