@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!-- <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
   </h1>
@@ -18,4 +18,27 @@
   </li>
 </ul>
 
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+
+<mz-card
+  class="blue-grey darken-1 white-text"
+  [horizontal]="true"
+  [hoverable]="true">
+  <mz-card-image>
+    <img src="assets/materialize-css/dist/img/card-1.jpg" />
+    <!-- <button mz-button mz-halfway-fab [float]="true"><i mz-icon [icon]="'add'"></i></button> -->
+  </mz-card-image>
+  <mz-card-image-title>
+    Card Image Title
+  </mz-card-image-title>
+  <mz-card-title>
+    Card Title
+  </mz-card-title>
+  <mz-card-content>
+    I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+  </mz-card-content>
+  <mz-card-action>
+    <a href="#">This is a link</a>
+    <a href="#">This is a link</a>
+  </mz-card-action>
+</mz-card>
